@@ -365,7 +365,7 @@ h6 {
 
 #hero .carousel-item::before {
   content: "";
-  background-color: rgba(21, 27, 26, 0.7);
+  /* background-color: rgba(108, 120, 142, 0.7); */
   position: absolute;
   height: 100vh;
   width: 100%;
@@ -404,7 +404,7 @@ h6 {
   color: #fff;
 }
 
-#hero .carousel-inner .carousel-item {
+/* #hero .carousel-inner .carousel-item {
   transition-property: opacity;
   background-position: center top;
 }
@@ -428,9 +428,9 @@ h6 {
 #hero .carousel-inner .active.carousel-item-end {
   left: 0;
   transform: translate3d(0, 0, 0);
-}
+} */
 
-#hero .carousel-control-prev,
+/* #hero .carousel-control-prev,
 #hero .carousel-control-next {
   width: 10%;
 }
@@ -452,7 +452,7 @@ h6 {
 #hero .carousel-indicators .active {
   background-color: #1bbca3;
 }
-
+*/
 #hero .btn-get-started {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -473,7 +473,7 @@ h6 {
   background: #1bbca3;
   color: #fff;
   text-decoration: none;
-}
+} 
 
 @media (max-width: 768px) {
   #hero h2 {
